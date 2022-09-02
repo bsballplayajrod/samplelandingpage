@@ -1,0 +1,143 @@
+* {
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.header {
+    font-size:18px;
+    background-color:#1F2937;
+    width:100%;
+}
+
+header, h3 {
+    font-size:24px;
+    color:#F9FAF8;
+}
+ul {
+    display:flex;
+    gap:1.5em;
+    margin-right:1em;
+    margin-left:1em;
+}
+header, li {
+    color:#E5E7EB;
+    list-style:none;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding:0 1em;
+}
+
+.section-one {
+    background-color:#1F2937;
+    width:100%;
+    display:flex;
+    justify-content:space-evenly;
+    padding:1.5em;
+}
+.firstmain {
+    width:100%;
+    padding:.5em;
+}
+
+.imagebox {
+    text-align:center;
+    display:flex;
+    align-items:center;
+    background-color:grey;
+    padding:0 2em;
+}
+h1 {
+    font-size:48px;
+    font-weight: 900;
+    color:#F9FAF8;
+}
+
+footer {
+    background-color:#1F2937;
+    text-align:center;
+    color:#F9FAF8;
+    padding:1.5em;
+}
+.section-four {
+    background-color:#3882F6;
+    color:#F9FAF8;
+    text-align:center;
+    width:100%;
+}
+.content {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    padding:2em;
+}
+.section-three {
+    background-color:#E5E7EB;
+    color:#1F2937;
+    font-size:36px;
+    font-style:italic;
+    padding:1em;
+    display:flex;
+    flex-direction:column;
+}
+
+.quote {
+    text-align:center;
+}
+.authorquote {
+text-align:end
+}
+.section-two {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+}
+
+.boxes {
+    display:flex;
+    justify-content:space-evenly;
+    width:100%;
+}
+
+.box {
+    border:5px solid #3882F6;
+    width:5em;
+    height:5em;
+    padding:4em;
+}
+.underbox {
+    display:flex;
+    width:100%;
+    justify-content:center;
+}
+
+.subtext {
+    text-align:center;
+    width:20%;
+    padding:1em;
+    margin:1em;
+    
+}
+.section-two h2 {
+    font-size:36px;
+    font-weight:900;
+    color:#1F2937;
+}
+.section-one {
+    font-size:18px;
+    color:#E5E7EB;
+
+}
+
+button {
+    background-color:#3882F6;
+    color:#E5E7EB;
+    border-radius:5px;
+    border:#E5E7EB solid;
+    font-size:1em;
+    padding:.5em;
+}
+
+
