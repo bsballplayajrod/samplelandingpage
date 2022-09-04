@@ -140,4 +140,8 @@ button {
     padding:.5em;
 }
 
+button:hover {
+    background:#1F2937;
+    cursor:pointer;
+}
 

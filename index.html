@@ -38,7 +38,7 @@
                                 <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
                             </div>
                             <div>
-                                <button>Sign Up</button>
+                                <button id="clickhere" onclick="myFunctionOne()">Click Here</button>
                             </div>
                         </div>
                         <div class="imagebox">
@@ -103,5 +103,15 @@
             <footer><p>Copyright &copy The Odin Project</p></footer>
         </div>
     </div>
+    <script>
+        alert ("I have now added some javascript. Please proceed to push the first Click Here button");
+
+        function myFunctionOne() {
+            let signup = document.getElementById("clickhere").innerHTML;
+            document.getElementById("clickhere").innerHTML =
+            signup.replace("Click Here", "Sign Up Now");
+            alert ("In my first attempt at using javascript, the button pushed produced a notification and has changed the words to Sign Up Now");
+            }
+    </script>
 </body>
 </html>
